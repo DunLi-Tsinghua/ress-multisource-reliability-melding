@@ -1,0 +1,21 @@
+random_seed: 20260611
+importance_samples_main: 20000
+sampling_stability_samples:
+  - 10000
+  - 20000
+  - 50000
+mission_time_h: 400.0
+reliability_requirement: 0.78
+time_grid_h:
+  start: 0.0
+  stop: 600.0
+  points: 121
+operational_profiles:
+  nominal: [0.65, 0.25, 0.10]
+  stressed: [0.30, 0.50, 0.20]
+  observed_evidence: [0.60, 0.28, 0.12]
+notes:
+  data_type: controlled synthetic numerical data
+  field_validation: false
+  proprietary_industrial_data: false
+  private_maintenance_records: false
